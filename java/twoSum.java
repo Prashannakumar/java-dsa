@@ -4,6 +4,11 @@
  * find if there exists any pair of elements (arr[i], arr[j]) such that their sum is equal to the target.
  */
 
+/**
+ * Time Complexity: O(N^2) - Two nested loops where the outer loop runs N-1 times and the inner loop runs N-i-1 times.
+ * Space Complexity: O(1) - Only a few variables used for tracking sums and results, no additional data structures used.
+ */
+
 public class twoSum {
 
     static boolean twoSum(int[] arr, int target){

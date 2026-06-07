@@ -1,5 +1,9 @@
 import java.lang.Math;
 
+/**
+ * time complexity : O(N)
+ * space complexity : O(1)
+ */
 public class KadanesAlgorithm {
 
     static int maxSubarraySum(int[] arr){

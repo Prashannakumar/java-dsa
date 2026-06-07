@@ -1,5 +1,9 @@
 import java.lang.Math;
 
+/**
+ * Time Complexity: O(N) - Single pass through the array
+ * Space Complexity: O(1) - Only a few variables used for tracking sums and results
+ */
 public class SlidingWindow {
 
     static int maxSum(int arr[], int k){

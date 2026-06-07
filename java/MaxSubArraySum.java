@@ -1,5 +1,9 @@
 import java.lang.Math;
 
+/**
+ * TC: O(N^2) - Two nested loops to consider all subarrays
+ * SC: O(1) - Only a few variables used for tracking sums and results
+ */
 public class MaxSubArraySum {
 
    static int maxSubArraySum(int[] arr){

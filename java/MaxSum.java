@@ -1,5 +1,9 @@
 import java.lang.Math;
 
+/**
+ * Time Complexity: O(N*K) - Two nested loops where outer loop runs N-K+1 times and inner loop runs K times
+ * Space Complexity: O(1) - Only a few variables used for tracking sums and results
+ */
 public class MaxSum{
 
     // returns maximum sum in a subarray of size k

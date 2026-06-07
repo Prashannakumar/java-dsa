@@ -1,7 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Arrays;
 
+/**
+ * time complexity : O(N)
+ * space complexity : O(N)
+ */
 public class PrefixSum {
     public static void main(String[] args){
         int[] arr = {10, 20, 30, 40, 50};
