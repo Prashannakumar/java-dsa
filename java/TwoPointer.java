@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 /**
  * tc: O(n log n) due to sorting the array, O(n) for the two-pointer traversal, resulting in O(n log n) overall.
- * sc: O(1) if we sort the array in place, otherwise O(n) if we create a new sorted array.
+ * sc: O(1) if we sort the array in place, otherwise O(n) if we create a new sorted array, in worst case sorting can result in o(n^2).
  */
 public class TwoPointer {
 
